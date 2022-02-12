@@ -24,7 +24,5 @@ yarn-debug.log*
 yarn-error.log*
 
 #USER IGNORE
-/public
-/src/index.js
-*
+
 package-lock.json
