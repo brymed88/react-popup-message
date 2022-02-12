@@ -1,1 +1,0 @@
-*{margin:0;padding:0}.message-overlay{width:400px;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);opacity:0.8;display:flex;justify-content:center;flex-direction:column;border:none}.message-overlay h2{background-color:#999}.message-overlay p{padding:16px}.message-overlay button{width:60px;align-self:flex-end;padding:8px;margin:4px}
