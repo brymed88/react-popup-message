@@ -1,18 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './def.css';
-import MessageComponent from './MessageComponent';
+import './popup.css';
+import PopupComponent from './PopupComponent';
 
 ReactDOM.render(
   <React.StrictMode>
 
-    <MessageComponent
+    <PopupComponent
       title="Error"
-      body="An error has occured, please try once more!
-      An error has occured, please try once more!
-      An error has occured, please try once more!
-      An error has occured, please try once more!"
-      bgcolor="red"
+      body="Lorem ipsum dolor sit amet, 
+      consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+      et dolore magna aliqua. Nisi scelerisque eu ultrices vitae auctor eu augue ut." 
+      type="error"
     />
 
   </React.StrictMode>,
