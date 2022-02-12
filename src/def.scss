@@ -1,0 +1,51 @@
+/*
+*   Author: Brycen Medart
+*   Website: https://treantlabs.com
+*   License: MIT License
+*/
+
+/*
+* VARIABLES
+*/
+
+//reset for padding and margin
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$background-body: #fff;
+$background-form: green;
+$background-h2: #999;
+$pad-sm: 4px;
+$pad-md: 8px;
+$pad-lg: 16px;
+
+$form-width: 400px;
+$form-height: 200px;
+
+.message-overlay {
+    width: $form-width;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+
+    h2 {
+        background-color: $background-h2;
+    }
+    p {
+        padding: $pad-lg;
+    }
+    button {
+        width: 60px;
+        align-self: flex-end;
+        padding: $pad-md;
+        margin: 4px;
+    }
+}
