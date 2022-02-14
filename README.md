@@ -20,7 +20,7 @@ Once the above files are included in the folder structure, import the component 
 
 <p>Then initiate the component</p>
 
-<p> Error noticiation
+<p> Error notification
 <pre>
 <code>
  <PopupComponent
@@ -30,10 +30,10 @@ Once the above files are included in the folder structure, import the component 
     />
 </code>
 </pre>
-![alt text](./screenshots/error.png)
+![](./screenshots/error.png)
 </p>
 
-<p> Warning noticiation
+<p> Warning notification
 <pre>
 <code>
  <PopupComponent
@@ -43,7 +43,7 @@ Once the above files are included in the folder structure, import the component 
     />
 </code>
 </pre>
-![alt text](./screenshots/warning.png)
+![](./screenshots/warning.png)
 </p>
 
 <p> Notification
@@ -56,10 +56,10 @@ Once the above files are included in the folder structure, import the component 
     />
 </code>
 </pre>
-![alt text](./screenshots/notification.png)
+![](./screenshots/notification.png)
 </p>
 
-<p> Success noticiation
+<p> Success notification
 <pre>
 <code>
  <PopupComponent
@@ -69,5 +69,5 @@ Once the above files are included in the folder structure, import the component 
     />
 </code>
 </pre>
-![alt text](./screenshots/success.png)
+![](./screenshots/success.png)
 </p>
