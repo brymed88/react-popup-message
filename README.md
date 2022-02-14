@@ -34,13 +34,15 @@ Once the above files are included in the folder structure, import the component 
 </p>
 
 <p> Warning notification
-`
- <PopupComponent
+<pre>
+<code>
+ &lt; PopupComponent
       title="Custom Warning Message"
       body="Some warning related text" 
       type="warning"
-    />
-`
+    /&gt; 
+</code>
+</pre>
 ![](screenshots/warning.png)
 </p>
 
