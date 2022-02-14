@@ -71,5 +71,5 @@ Once the above files are included in the folder structure, import the component 
 </pre>
 </p>
 <p>
-![success](./screenshots/success.png)
+<img src="./screenshots/success.png" width="150px">
 </p>
