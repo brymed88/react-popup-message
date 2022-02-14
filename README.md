@@ -10,7 +10,7 @@
 </p>
 
 <p>
-Once the above files are included in the folder structure, import the component in each page or top level component.
+Once the above files are included in the folder structure, import the component in each page or top level component where it is required.
 
 <pre>
 <code> import PopupComponent from './PopupComponent'; </code>
@@ -23,51 +23,51 @@ Once the above files are included in the folder structure, import the component 
 <p> Error notification
 <pre>
 <code>
- <PopupComponent
+ &lt;PopupComponent
       title="Custom Error Message"
       body="Some error related text" 
       type="error"
-    />
+    /&gt;
 </code>
 </pre>
-![](./screenshots/error.png)
+![error](screenshots/error.png)
 </p>
 
 <p> Warning notification
 <pre>
 <code>
- &lt; PopupComponent
+ &lt;PopupComponent
       title="Custom Warning Message"
       body="Some warning related text" 
       type="warning"
     /&gt; 
 </code>
 </pre>
-![](screenshots/warning.png)
+![error](screenshots/warning.png)
 </p>
 
 <p> Notification
 <pre>
 <code>
- <PopupComponent
+ &lt;PopupComponent
       title="Custom Notification Message"
       body="Some notification related text" 
       type="notification"
-    />
+    /&gt;
 </code>
 </pre>
-![](./screenshots/notification.png)
+![notification](screenshots/notification.png)
 </p>
 
 <p> Success notification
 <pre>
 <code>
- <PopupComponent
+ &lt;PopupComponent
       title="Custom Success Message"
       body="Some success related text" 
       type="success"
-    />
+    /&gt;
 </code>
 </pre>
-![](./screenshots/success.png)
+![success](screenshots/success.png)
 </p>
