@@ -17,3 +17,57 @@ Once the above files are included in the folder structure, import the component 
 </pre>
 
 </p>
+
+<p>Then initiate the component</p>
+
+<p> Error noticiation
+<pre>
+<code>
+ <PopupComponent
+      title="Custom Error Message"
+      body="Some error related text" 
+      type="error"
+    />
+</code>
+</pre>
+![alt text](./screenshots/error.png)
+</p>
+
+<p> Warning noticiation
+<pre>
+<code>
+ <PopupComponent
+      title="Custom Warning Message"
+      body="Some warning related text" 
+      type="warning"
+    />
+</code>
+</pre>
+![alt text](./screenshots/warning.png)
+</p>
+
+<p> Notification
+<pre>
+<code>
+ <PopupComponent
+      title="Custom Notification Message"
+      body="Some notification related text" 
+      type="notification"
+    />
+</code>
+</pre>
+![alt text](./screenshots/notification.png)
+</p>
+
+<p> Success noticiation
+<pre>
+<code>
+ <PopupComponent
+      title="Custom Success Message"
+      body="Some success related text" 
+      type="success"
+    />
+</code>
+</pre>
+![alt text](./screenshots/success.png)
+</p>
