@@ -41,7 +41,7 @@ Once the above files are included in the folder structure, import the component 
       type="warning"
     />
 `
-(./screenshots/warning.png)
+![](screenshots/warning.png)
 </p>
 
 <p> Notification
