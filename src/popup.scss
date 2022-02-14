@@ -8,15 +8,11 @@
 * VARIABLES
 */
 
-//reset for padding and margin
+//reset for padding and margin remove if you already have a reset in place
 * {
     margin: 0;
     padding: 0;
 }
-
-$background-body: #fff;
-$background-form: green;
-$background-h2: #999;
 
 $menu-error: red;
 $menu-warn: yellow;
@@ -24,9 +20,6 @@ $menu-notification: orange;
 $menu-success: green;
 
 $menu-font: 1.2rem;
-$pad-sm: 4px;
-$pad-md: 8px;
-$pad-lg: 16px;
 
 /*Change to set width of the popup message form*/
 $form-width: 400px;
@@ -55,11 +48,11 @@ $form-width: 400px;
     flex-direction: column;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     border-radius: 8px 8px 4px 4px;
-    
+
     h2 {
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
         border-radius: 8px 8px 0 0;
-        padding: $pad-md;
+        padding: 8px;
+        box-shadow: 0px 0px 1px #222;
     }
     .error {
         background-color: $menu-error;
@@ -80,7 +73,7 @@ $form-width: 400px;
     p,
     button {
         font-size: $menu-font;
-        padding: $pad-md;
+        padding: 8px;
         margin: 4px;
     }
     p {
