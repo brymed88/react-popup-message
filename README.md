@@ -69,5 +69,7 @@ Once the above files are included in the folder structure, import the component 
     /&gt;
 </code>
 </pre>
-![success](success.png)
+</p>
+<p>
+![success](./screenshots/success.png)
 </p>
