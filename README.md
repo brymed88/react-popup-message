@@ -1,8 +1,10 @@
 <h1>React Popup Component</h2>
 
-<p>The purpose of this project is to provide a simple popup message using React components.</p>
+<p>
+The purpose of this project is to provide a simple popup notication using React components. To learn more about components see <a href="https://reactjs.org/docs/components-and-props.html">Components & Props - Reactjs.org</a>
+</p>
 
-<p>There are two files that must be included within your code
+<p>There are two files that must be included for the component to function properly.
 <ol>
 <li>PopupComponent.js</li>
 <li>popup.css/popup.min.css</li>
@@ -13,7 +15,10 @@
 Once the above files are included in the folder structure, import the component in each page or top level component where it is required.
 
 <pre>
-<code> import PopupComponent from './PopupComponent'; </code>
+<code> 
+import './popup.css';
+import PopupComponent from './PopupComponent'; 
+</code>
 </pre>
 
 </p>
@@ -67,6 +72,7 @@ Once the above files are included in the folder structure, import the component 
 </code>
 </pre>
 </p>
+
 <p> <h2>Screenshots</h2>
 <img src="./screenshots/error.png" width="300px">
 <img src="./screenshots/warning.png" width="300px">
