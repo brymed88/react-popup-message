@@ -2,10 +2,10 @@ import React from "react";
 
 const PopupComponent = (props) => {
 
-  let [btnClick, setBtnClick] = React.useState(false);
+  let [btnClick, setBtnClick] = React.useState(true);
 
   const MenuToggle = () => {
-    (btnClick === false ? setBtnClick(true) : setBtnClick(false))
+    setBtnClick(false);
   }
 
   return (
