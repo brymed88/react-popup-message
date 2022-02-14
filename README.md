@@ -30,7 +30,6 @@ Once the above files are included in the folder structure, import the component 
     /&gt;
 </code>
 </pre>
-![error](screenshots/error.png)
 </p>
 
 <p> Warning notification
@@ -43,7 +42,6 @@ Once the above files are included in the folder structure, import the component 
     /&gt; 
 </code>
 </pre>
-![error](screenshots/warning.png)
 </p>
 
 <p> Notification
@@ -56,7 +54,6 @@ Once the above files are included in the folder structure, import the component 
     /&gt;
 </code>
 </pre>
-![notification](screenshots/notification.png)
 </p>
 
 <p> Success notification
@@ -70,6 +67,9 @@ Once the above files are included in the folder structure, import the component 
 </code>
 </pre>
 </p>
-<p>
+<p> <h2>Screenshots</h2>
+<img src="./screenshots/error.png" width="300px">
+<img src="./screenshots/warning.png" width="300px">
+<img src="./screenshots/notification.png" width="300px">
 <img src="./screenshots/success.png" width="300px">
 </p>
